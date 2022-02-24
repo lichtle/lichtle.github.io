@@ -5,7 +5,7 @@
     }
 
     body {
-      background-color: rgb(164, 131, 175);
+      background-color: rgb(185, 146, 190);
       text-align: center;
     }
 
@@ -33,7 +33,7 @@
 
     #destaque {
       font-size: 24px;
-      color: rgb(249, 220, 227)
+      color: white;
     }
 
     #blog {
