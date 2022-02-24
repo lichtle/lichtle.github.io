@@ -22,22 +22,28 @@
       color: rgb(149, 239, 174);
     }
 
-    li {
-      font-size: 20px;
+    a {
+      color: white
+    }
+
+    .navegue {
+      font-size: 18px;
+      color: rgb(249, 220, 227);
+      text-decoration: none;
+    }
+
+    .ul {
+      font-size: 22px;
       color: rgb(249, 220, 227);
     }
 
-    a {
-      color: white
+    #foto {
+      border-radius: 15%;
     }
 
     #destaque {
       font-size: 24px;
       color: white;
-    }
-
-    #blog {
-      font-size: 20px;
     }
 
     #hab {
