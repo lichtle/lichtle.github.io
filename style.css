@@ -38,6 +38,10 @@ div:first-of-type a {
   text-decoration: none;
 }
 
+div:first-of-type a:hover {
+  text-decoration:underline;
+}
+
 div:nth-of-type(2) {
   font-size: 25px;
   text-align: left;
