@@ -1,51 +1,65 @@
-    h1 {
-      font-family: 'Times New Roman', Times, serif;
-      color: white;
-      font-size: 40px;
-    }
+body {
+  background-color: rgb(221, 163, 213);
+  color: white;
+  text-align: center;
+}
 
-    body {
-      background-color: rgb(185, 146, 190);
-      text-align: center;
-    }
+a {
+  color: white;
+}
 
-    p {
-      color: white;
-      font-size: 22px;
-    }
+em,
+strong {
+  color: rgb(197, 216, 209)
+}
 
-    em {
-      color: rgb(149, 239, 174);
-    }
+h1 {
+  background-color: rgb(186, 209, 179);
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin: 70px;
+  padding: 13px;
+  border: 5px solid white;
+}
 
-    strong {
-      color: rgb(149, 239, 174);
-    }
+div:first-of-type {
+  background-color: rgb(186, 209, 179);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+}
 
-    a {
-      color: white
-    }
+div:first-of-type a {
+  text-decoration: none;
+}
 
-    .navegue {
-      font-size: 18px;
-      color: rgb(249, 220, 227);
-      text-decoration: none;
-    }
+div:nth-of-type(2) {
+  font-size: 25px;
+  text-align: left;
+}
 
-    .ul {
-      font-size: 22px;
-      color: rgb(249, 220, 227);
-    }
+footer {
+  text-align: center;
+  margin: 100px;
+}
 
-    #foto {
-      border-radius: 15%;
-    }
+#foto {
+  position: relative;
+  width: 190px;
+  border-radius: 10px;
+  border: 5px solid white;
+  float: left;
+  margin-left: 120px;
+  margin-right: 40px;
+}
 
-    #destaque {
-      font-size: 24px;
-      color: white;
-    }
-
-    #hab {
-      font-size: 24px;
-    }
+.icons {
+  width: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
