@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+}
+
 body {
-  background-color: rgb(221, 163, 213);
+  background-color: rgb(198, 154, 234);
   color: white;
   text-align: center;
 }
@@ -10,11 +14,11 @@ a {
 
 em,
 strong {
-  color: rgb(197, 216, 209)
+  color: rgb(208, 221, 216)
 }
 
-h1 {
-  background-color: rgb(186, 209, 179);
+.name h1 {
+  background-color: rgb(172, 195, 186);
   color: white;
   text-align: center;
   font-size: 60px;
@@ -23,8 +27,8 @@ h1 {
   border: 5px solid white;
 }
 
-div:first-of-type {
-  background-color: rgb(186, 209, 179);
+header nav {
+  background-color: rgb(172, 195, 186);
   color: white;
   font-size: 30px;
   text-align: center;
@@ -34,32 +38,49 @@ div:first-of-type {
   border-top: 5px solid white;
 }
 
-div:first-of-type a {
+nav a {
   text-decoration: none;
 }
 
-div:first-of-type a:hover {
+nav a:hover {
   text-decoration:underline;
-}
-
-div:nth-of-type(2) {
-  font-size: 25px;
-  text-align: left;
 }
 
 footer {
   text-align: center;
-  margin: 100px;
+  padding: 5px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  margin: 100px auto 50px auto;
+  background-color: rgb(172, 195, 186);
+}
+
+footer a {
+  color:white;
+  font-size: 15px;
+}
+
+.description, .skills {
+  font-size: 25px;
+  text-align: left;
+  margin: 30px;
+}
+
+.description {
+  display: block;
+}
+
+.skills h3 {
+  margin: auto auto 15px auto;
 }
 
 #foto {
-  position: relative;
   width: 190px;
   border-radius: 10px;
   border: 5px solid white;
-  float: left;
   margin-left: 120px;
-  margin-right: 40px;
+  margin-right: 70px;
+  float: left;
 }
 
 .icons {
