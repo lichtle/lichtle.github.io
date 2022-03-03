@@ -57,21 +57,23 @@ footer {
 
 footer a {
   color:white;
-  font-size: 15px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.description, .skills {
-  font-size: 25px;
-  text-align: left;
-  margin: 30px;
+footer a:hover {
+  text-decoration: underline;
 }
 
 .description {
-  display: block;
+  font-size: 25px;
+  text-align: left;
+  margin: 30px;
+  vertical-align: middle;
 }
 
-.skills h3 {
-  margin: auto auto 15px auto;
+.description h3 {
+  margin: 30px auto auto auto;
 }
 
 #foto {
@@ -80,6 +82,7 @@ footer a {
   border: 5px solid white;
   margin-left: 120px;
   margin-right: 70px;
+  margin-bottom: auto;
   float: left;
 }
 
