@@ -69,11 +69,10 @@ footer a:hover {
   font-size: 25px;
   text-align: left;
   margin: 30px;
-  vertical-align: middle;
 }
 
 .description h3 {
-  margin: 30px auto auto auto;
+  margin: 30px auto 10px auto;
 }
 
 #foto {
