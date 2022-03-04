@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -68,7 +69,13 @@ footer a:hover {
 .description {
   font-size: 25px;
   text-align: left;
-  margin: 30px;
+  position: relative;
+  left: 23px;
+}
+
+#descriçao {
+  position: relative;
+  left: 90px;
 }
 
 .description h3 {
@@ -76,14 +83,15 @@ footer a:hover {
 }
 
 #foto {
-  width: 190px;
-  border-radius: 10px;
-  border: 5px solid white;
-  margin-left: 120px;
-  margin-right: 70px;
-  margin-bottom: auto;
-  float: left;
-}
+    width: 190px;
+    border-radius: 10px;
+    border: 5px solid white;
+    float: left;
+    margin-right: 70px;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+  }
 
 .icons {
   width: 16px;
