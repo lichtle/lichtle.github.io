@@ -6,7 +6,6 @@
 body {
   background-color: rgb(198, 154, 234);
   color: white;
-  text-align: center;
 }
 
 a {
@@ -44,7 +43,7 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 footer {
@@ -57,7 +56,7 @@ footer {
 }
 
 footer a {
-  color:white;
+  color: white;
   font-size: 20px;
   text-decoration: none;
 }
@@ -66,32 +65,29 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.description {
+.container {
   font-size: 25px;
   text-align: left;
-  position: relative;
-  left: 23px;
+  max-width: 85%;
+  margin: auto;
 }
 
-#descriçao {
-  position: relative;
-  left: 90px;
-}
-
-.description h3 {
+.container h2 {
   margin: 30px auto 10px auto;
 }
 
+#description {
+  margin-left: 00px;
+}
+
 #foto {
-    width: 190px;
-    border-radius: 10px;
-    border: 5px solid white;
-    float: left;
-    margin-right: 70px;
-    position: relative;
-    bottom: 20px;
-    left: 100px;
-  }
+  width: 190px;
+  border-radius: 10px;
+  border: 5px solid white;
+  float: left;
+  margin-right: 70px;
+  margin-bottom: 35px;
+}
 
 .icons {
   width: 16px;
