@@ -48,21 +48,11 @@ nav a:hover {
 
 footer {
   text-align: center;
-  padding: 5px;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
+  padding: 40px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
   margin: 100px auto 50px auto;
   background-color: rgb(172, 195, 186);
-}
-
-footer a {
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .container {
@@ -87,10 +77,4 @@ footer a:hover {
   float: left;
   margin-right: 70px;
   margin-bottom: 35px;
-}
-
-.icons {
-  width: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
